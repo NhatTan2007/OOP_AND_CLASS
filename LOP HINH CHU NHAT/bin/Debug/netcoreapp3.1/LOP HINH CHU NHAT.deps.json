@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LOP HINH CHU NHAT/1.0.0": {
+        "runtime": {
+          "LOP HINH CHU NHAT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LOP HINH CHU NHAT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
