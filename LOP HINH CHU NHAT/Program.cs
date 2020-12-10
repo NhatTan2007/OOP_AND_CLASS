@@ -16,11 +16,11 @@ namespace LOP_HINH_CHU_NHAT
             firstSampleRectangle.Height = 20;
             firstSampleRectangle.Width = 50;
 
-            secondSampleRectangle.dispay();
+            secondSampleRectangle.Dispay();
             Console.WriteLine($"Second Rectangle's Area is: {secondSampleRectangle.getArea()}");
-            Console.WriteLine($"Second Rectangle's Perimeter is: {secondSampleRectangle.getPerimeter()}");
+            Console.WriteLine($"Second Rectangle's Perimeter is: {secondSampleRectangle.getPerimeter()}\n");
 
-            firstSampleRectangle.dispay();
+            firstSampleRectangle.Dispay();
             Console.WriteLine($"First Rectangle's Area is: {firstSampleRectangle.getArea()}");
             Console.WriteLine($"First Rectangle's Perimeter is: {firstSampleRectangle.getPerimeter()}");
             firstSampleRectangle.getArea();

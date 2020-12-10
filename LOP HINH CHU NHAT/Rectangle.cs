@@ -15,22 +15,13 @@ namespace LOP_HINH_CHU_NHAT
             set { _width = value; }
         }
 
-        public int Height
-        {
-            get => _height; set => _height = value;
-        }
-        //public int Height { get => _height; set => _height = value; }
+        //public int Height{get => _height; set => _height = value;}
+        public int Height { get => _height; set => _height = value; }
         public Rectangle()
         {
 
         }
         public Rectangle(int width, int height)
-        {
-            _width = width;
-            _height = height;
-        }
-
-        public Rectangle(int width, byte height)
         {
             _width = width;
             _height = height;
@@ -46,7 +37,7 @@ namespace LOP_HINH_CHU_NHAT
             return (Width + Height) * 2;
         }
 
-        public void dispay()
+        public void Dispay()
         {
             Console.WriteLine($"Your Rectangle: width = {Width}, height = {Height}");
         }
